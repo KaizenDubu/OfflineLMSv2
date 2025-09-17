@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/OfflineLMS/static/css/main.f7e3c5e6.css",
+    "main.js": "/OfflineLMS/static/js/main.bc45dd8a.js",
+    "static/media/Background.png": "/OfflineLMS/static/media/Background.13805fa604b147d5536e.png",
+    "index.html": "/OfflineLMS/index.html",
+    "main.f7e3c5e6.css.map": "/OfflineLMS/static/css/main.f7e3c5e6.css.map",
+    "main.bc45dd8a.js.map": "/OfflineLMS/static/js/main.bc45dd8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7e3c5e6.css",
+    "static/js/main.bc45dd8a.js"
+  ]
+}

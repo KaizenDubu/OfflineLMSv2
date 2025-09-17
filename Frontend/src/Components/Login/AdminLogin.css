@@ -1,0 +1,147 @@
+.canvas-login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.canvas-login-box {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2.5rem;
+  border-radius: 10px;
+  width: 380px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* unified vertical spacing */
+  --field-gap: 12px;
+}
+
+.canvas-logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+form label {
+  display: block;
+  margin: var(--field-gap) 0 0.35rem;
+}
+form label:first-of-type {
+  margin-top: 0;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--field-gap) 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+}
+
+.forgot-password {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.canvas-login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.canvas-login-btn:hover {
+  background-color: white;
+  color: #2d3b45;
+}
+
+.error-message {
+  background-color: #ffe0e0;
+  color: #b40000;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.signup-redirect {
+  text-align: center;
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.signup-link {
+  color: #00bfff;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.signup-link:hover {
+  color: #87cefa;
+}
+
+.footer-links {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-logo {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
