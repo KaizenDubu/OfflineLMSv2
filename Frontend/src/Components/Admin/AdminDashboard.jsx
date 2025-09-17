@@ -15,7 +15,7 @@ function AdminDashboard() {
       case "logs":
         return <Logs />;
       default:
-        return <h2>Welcome, Zan!</h2>;
+        return <h2>Welcome, Admin!</h2>;
     }
   };
 
